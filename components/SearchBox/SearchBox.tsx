@@ -2,10 +2,10 @@
 
 import css from './SearchBox.module.css';
 
-type SearchBoxProps = {
+interface SearchBoxProps {
   value: string;
   onSearch: (value: string) => void;
-};
+}
 
 export default function SearchBox({ value, onSearch }: SearchBoxProps) {
   return (
