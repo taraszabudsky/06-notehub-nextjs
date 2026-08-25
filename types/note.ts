@@ -15,7 +15,7 @@ export interface CreateNote {
   tag: NoteTag;
 }
 
-export interface NotesResponse {
-  notes: Note[];
-  totalPages: number;
-}
+// export interface NotesResponse {
+//   notes: Note[];
+//   totalPages: number;
+// }
